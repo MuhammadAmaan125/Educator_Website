@@ -1,0 +1,376 @@
+/* Navbar Start */
+#Brand_img{
+    width: 150px;
+}
+.Header_button{
+border: 1px solid #F56E00;
+border-radius: 10px;
+padding: 10px 25px;
+background-color: #F56E00;
+color: white;
+
+}
+.Main_button 
+{
+  background-color: #F56E00;
+  border: none;
+  color: white;
+}
+.header_div:hover .Header_button_animation  
+{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+
+}
+
+.btn-text{
+    position: relative;
+    z-index: 3;
+    
+}
+.Header_button_animation{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 18px;
+    transition: all 0.6s ease;
+    background-color:black;
+    z-index: 1;
+} 
+.header_div{
+    position: relative;
+   z-index: 0;
+}
+
+/*Navbar End */
+/*Banner Start */
+.shape-1{
+    width: 80px;
+}
+.home_container{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+margin-top: 50px;
+
+}
+.heading_shape{
+
+  width: 100%;
+margin-left: 80px;
+  }
+.Banner_heading{
+width: 300px;
+position: relative;
+}
+.heading_img{
+ width: 200px; 
+}
+h6{
+    color: blue;
+}
+h1{
+    font-weight: 900;
+    word-spacing: 4px;
+}
+.Banner_heading_img{
+    margin-left: 90px;
+    position: absolute;
+    top: 90px;
+}
+.Banner_text{
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+.Banner_buttons{
+       display: inline-flex;
+       position: relative;
+        width: 27%;
+    }
+    .btn_div{
+background-color: #F56E00;
+border-radius: 10px;
+width: 200px;
+padding: 10px;
+    }
+
+
+    .btn1{
+        background-color: #F56E00;
+        border: none;
+        border-radius: 10px;
+        color: white;
+    }
+
+
+.btn_animation{
+   position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    right:  8px;
+    top: 8px;
+    transition: all 0.6s ease;
+
+   }
+   .Banner_buttons:hover .btn_animation  
+{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+position: absolute;
+    top: 0px;
+    right: 0px;
+
+
+}
+.Banner_buttons2{
+    display: inline-flex;
+    position: relative;
+    margin-left: 20px;
+ }
+ .btn_div2{
+background-color: black;
+border-radius: 10px;
+width: 140px;
+padding: 10px 
+    }
+ .btn2{
+     background-color: black;
+     border: none;
+     border-radius: 10px;
+     color: white;
+ }
+.btn_animation2{
+position: absolute;
+ width: 30px;
+ height: 30px;
+ border-radius: 5px;
+ background-color:#F56E00;
+ right:  8px;
+ top: 8px;
+ transition: all 0.6s ease;
+
+}
+.Banner_buttons2:hover .btn_animation2  
+{
+ width: 100%;
+ height: 100%;
+ border: 1px solid #F56E00;
+ border-radius: 10px;
+position: absolute;
+ top: 0px;
+ right: 0px;
+}
+.banner_img_div{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.banner_img{
+  width: 50px; 
+ }
+
+.banner_img_bg{
+    width: 400px;
+   
+}
+
+.banner_img2{
+    width: 400px;
+    position: absolute;
+    right: 260px;
+    top: 40px;
+}
+.banner_icon_4{
+    position:absolute;
+    top: 150px;
+    right: 200px;
+}
+.shape_3{
+    width: 200px;
+    position: absolute;
+    top: 70px;
+    right: 1px;
+}
+.banner_icon_1{
+    width: 200px;
+    position: absolute;
+    top: 220px;
+    right: 490px;
+}
+
+img.banner_icon_1{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.banner_icon_1{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.banner_icon_2{
+    width: 200px;
+    position: absolute;
+    bottom: 170px;
+    right: 250px;
+}
+img.banner_icon_2{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.banner_icon_2{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.banner_icon_3{
+    width: 150px;
+    position: absolute;
+    bottom: 90px;
+    right: 500px;
+}
+img.banner_icon_3{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.banner_icon_3{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
+@media only screen and (max-width: 700px){
+  .banner_img2{
+    width: 100%;
+    right: 0px;
+    bottom: 10px;
+    top: inherit;
+  }
+.shape-1,.shape_3,.banner_icon_4{
+    display: none;
+}
+.banner_icon_2{
+    bottom: 20px;
+    right: 80px;
+}
+
+#banner-text{
+    text-align: center;
+}
+.heading_shape{
+    margin-left: 0px;
+}
+#banner-main-text{
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
+    margin-left: 80px;
+}
+.Banner_heading_img{
+    margin-left: 100px;
+    top: 96px;
+}
+.heading_img{
+    width: 150px;
+}
+.Banner_text{
+    text-align: center;
+    width: 100%;
+}
+.Banner_buttons{
+    width: 50%;
+}   
+.Banner_buttons2{
+    display: inherit;
+}
+#buttons_div{
+    text-align: center;
+}
+.Banner_buttons2{
+   display: none;
+}   
+.banner_img_bg{
+    width: 100%;
+}
+
+
+[class*="col-"] {
+      width: 100%;
+      
+    }
+  }
+  
+  @media  screen and (min-width: 701px) and (max-width: 1024px){
+      
+  .banner_icon_1{
+    right: inherit;
+        width: 200px;
+    position: absolute;
+        bottom: 0px;
+    
+  }
+  .banner_img2{
+ top: 50px;
+    right: 0px;
+  }
+  .banner_icon_3{
+    right: inherit;
+    bottom: 50px;
+  }
+.shape-1,.shape_3,.banner_icon_4{
+  display: none;
+}
+.banner_icon_2{
+ right: 30px; 
+ bottom: 120px;
+}
+.Banner_heading_img{
+top: 80px;
+margin-left: 60px;
+}
+.Banner_text{
+    width: 80%;
+}
+.Banner_buttons{
+    width: 46%;
+}
+.heading_shape{
+    margin-left: 30px;
+    margin-top: 90px;
+}  }
+  
