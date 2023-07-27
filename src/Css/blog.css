@@ -1,0 +1,11 @@
+.blog_container{
+    width: 100%;
+margin-bottom: 90px;
+}
+.blog_heading{
+    text-align: center;
+}
+.blog_date{
+    color: black;
+    font-size: 12px;
+}

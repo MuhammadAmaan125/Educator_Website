@@ -1,0 +1,93 @@
+.event_container{
+    width: 100%;
+  
+    background-color: gainsboro;
+    position: relative;
+}
+
+.event_img{
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+
+}
+.heading{
+    width: 400px;
+}
+.event_card{
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+}
+.card-heading{
+    width: 120px;
+    height: 100px;
+text-align: center;
+padding-top: 15px;
+    border-right: 1px solid gainsboro;
+  
+}
+.card-time{
+line-height: 10px;
+}
+.card-time p{
+    font-size: 12px;
+}
+.card-date{
+    font-weight: bolder;
+    color: blue;
+}
+.card-month{
+    font-size: 12px;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+   
+  .event_img_div{
+    width: 100%;
+    height: auto;
+    display: table-header-group;
+  }
+  .event_img{
+    width: 100%;
+    height: auto;
+
+}
+.heading{
+    width: 100%;
+    height: auto;
+}
+.event_card{
+    width: 100%;
+    height: auto;
+}
+
+    [class*="col-"] {
+      width: 100%;
+      
+    }
+  }
+  
+  @media  screen and (min-width: 701px) and (max-width: 1024px){
+  
+.event_img{
+    width: 300px;
+    height: auto;
+}
+.event_card{
+    width: 350px;
+    height: auto;
+}
+.event_img_div{
+    margin-left: 0px !important;
+}
+.heading{
+    width: 300px;
+}
+
+}
+  
